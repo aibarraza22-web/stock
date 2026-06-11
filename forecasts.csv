@@ -1,0 +1,11 @@
+run_id,forecast_date,ticker,window_end,horizon_tdays,ref_price_est,ref_price_flag,p_up10,p_up10_lo,p_up10_hi,p_dn10,median_ret,engine,resolved_close,realized_ret,outcome_up10,outcome_dn10,brier_up10,notes
+1,2026-06-11,ADBE,2026-06-25,10,234.00,stale_1-2d,0.117,0.083,0.151,0.113,-0.011,engine.py,,,,,,earnings 2026-06-11 AMC; implied move 8.7-9.45% sourced
+1,2026-06-11,MU,2026-06-25,10,1040.00,stale_1-9d,0.337,0.285,0.403,0.284,0.014,engine.py,,,,,,earnings 2026-06-24 AMC confirmed; implied move ASSUMED
+1,2026-06-11,ORCL,2026-06-25,10,199.00,after_hours_0610,0.108,0.069,0.139,0.067,0.004,engine.py,,,,,,post-earnings; catalyst spent 2026-06-10
+1,2026-06-11,LEN,2026-06-25,10,,unconfirmed,0.044,0.022,0.067,0.021,-0.001,engine.py,,,,,,earnings 2026-06-11 AMC; implied move 4.3% sourced; resolve in % from 0611 close
+2,2026-06-11,MU,2026-07-10,20,1040.00,stale_1-9d,0.341,0.301,0.398,0.261,0.018,engine_v2.py,,,,,,edge vs base rate ~+4pts; only positive-edge name
+2,2026-06-11,AAOI,2026-07-10,20,197.00,stale_3-6d,0.376,0.343,0.413,0.334,0.010,engine_v2.py,,,,,,edge ~0; pure volatility; vol param ASSUMED 85-130%
+2,2026-06-11,SMCI,2026-07-10,20,33.87,close_0610,0.300,0.264,0.338,0.305,-0.007,engine_v2.py,,,,,,post -16.7% dilution crash; edge ~-3pts
+2,2026-06-11,UEC,2026-07-10,20,9.45,close_0610,0.265,0.229,0.301,0.253,-0.002,engine_v2.py,,,,,,catalyst passed 2026-06-09; edge ~-2pts
+2,2026-06-11,CCL,2026-07-10,20,26.06,recent,0.203,0.172,0.239,0.151,0.002,engine_v2.py,,,,,,earnings date ESTIMATED 0623-0630; modeled as uncertain
+2,2026-06-11,CRK,2026-07-10,20,,unconfirmed,0.292,0.225,0.334,0.219,0.010,engine_v2.py,,,,,,price unconfirmed; flow signal only; resolve in % from 0611 close
